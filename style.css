@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/54/Bucaramanga_v_cu.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 500px;
+    margin-bottom: 0px;
+}
+
+#visit {
+    background: #ffb703;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 210px 0 10px 0;
+    
+}
+
+#enjoy {
+
+    background: #219ebc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 2px 0 10px 0;
+
+}
+
+#activities {
+    background-color: #8ecae6;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 600px;
+}
+
+#top {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.act {
+    display: flex;
+    flex-direction: rox;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 0px auto;
+    width: 400px;
+    font-size: small;
+}
+
+.text h3 {
+    margin: 30px auto;
+}
+
+#guide {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+  
+}
+
+#video {
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #023047;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+
+}
+
+#textVideo {
+    display: flex;
+    flex-direction: column;
+}
